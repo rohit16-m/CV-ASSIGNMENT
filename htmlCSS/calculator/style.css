@@ -1,0 +1,53 @@
+
+
+.container{
+    display: grid;
+    grid-template-columns: 7.5vw 7.5vw 7.5vw 7.5vw ;
+    grid-template-rows:8vh 8vh 8vh 8vh 8vh;
+    height: 40vh;
+    width: 30vw;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 10vh;
+    justify-items: center;
+    align-items: center;
+   
+}
+
+.grid-item{
+    display: -ms-inline-grid;
+}
+.item-result{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin: auto ;
+}
+
+input{
+    border: none;
+    height: 8vh;
+    width: 21.5vw;
+    font-size: large;
+    color: black;
+    
+}
+
+.btn{
+    height: 8vh;
+    width: 7.5vw;
+}
+
+.btn-number{
+    background-color: black;
+    color: white;
+}
+
+.btn-operator{
+    background-color: gray;
+    color: white;
+}
+
+.btn-clear{
+    background-color: green;
+    color: white;
+}
